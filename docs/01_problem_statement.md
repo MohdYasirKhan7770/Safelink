@@ -1,34 +1,62 @@
 # Problem Statement
 
-## Background
+## Introduction
 
-Personal safety applications have become increasingly important, especially for women, students, elderly individuals, and solo travelers. However, most existing applications depend heavily on mobile networks or internet connectivity to send emergency alerts.
+In today's connected world, emergency communication still depends heavily on internet connectivity and mobile network coverage. While smartphones have made emergency assistance more accessible, existing solutions become significantly less effective in areas where communication infrastructure is unavailable or unreliable.
 
-In remote roads, rural areas, forests, highways, or other isolated locations, network coverage may be unavailable. During such situations, users may not be able to contact emergency services or their trusted contacts.
+This limitation affects millions of people every day.
 
-## Problem
+---
 
-Current safety applications often fail when:
+## The Challenge
 
-- There is no internet connection.
-- Mobile network coverage is unavailable.
-- The user is in an isolated location.
-- Communication with emergency contacts cannot be established.
+Emergencies frequently occur in environments where communication is difficult or impossible.
 
-This creates a critical gap in emergency response during situations where immediate help is needed.
+Examples include:
 
-## Proposed Solution
+- Remote roads
+- Rural villages
+- Forests and trekking routes
+- Highways
+- Underground parking areas
+- Industrial sites
+- Disaster-affected regions
+- Large educational campuses
 
-SafeLink is an offline-first smart safety platform that aims to maximize the chances of delivering emergency alerts.
+Although GPS can often determine a user's location, transmitting that information to emergency responders remains a major challenge when communication networks fail.
 
-The platform will:
+---
 
-- Record GPS location without internet.
-- Securely store emergency evidence.
-- Automatically retry failed alerts.
-- Use multiple communication methods whenever available.
-- Support a future relay beacon network to improve emergency communication in zero-network zones.
+## Existing Limitations
 
-## Objective
+Current emergency applications primarily rely on:
 
-To design and develop a reliable emergency communication platform capable of assisting users even when conventional communication networks are unavailable.
+- Mobile Networks
+- Internet Connectivity
+- SMS Services
+
+When these communication channels become unavailable, emergency alerts may fail to reach emergency contacts or authorities.
+
+As a result, valuable response time may be lost during situations where every second matters.
+
+---
+
+## Our Approach
+
+SafeLink proposes an offline-first emergency communication platform that is designed to maximize the probability of delivering emergency alerts through multiple communication methods.
+
+Rather than depending on a single communication channel, SafeLink is designed to intelligently adapt to available communication options while preparing for future decentralized emergency infrastructure.
+
+---
+
+## Long-Term Objective
+
+To create a global emergency communication ecosystem capable of providing reliable assistance regardless of network availability.
+
+SafeLink aims to evolve from a mobile application into public safety infrastructure supporting individuals, organizations, educational institutions, industries, and smart cities.
+
+---
+
+## Guiding Principle
+
+> Safety should never depend on network coverage.
